@@ -22,13 +22,23 @@ function Navbar2() {
                   
                   <NavLink to='/blog'>blog</NavLink>
 
-               
+                  <li><a href="#"></a>
+                  <ul class="dropdown">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="Campaign-Grid-View.html">Campaign Grid View</a></li>
+                      <li><a href="Campaign-List-View.html">Campaign List View</a></li>
+                      <li><a href="Events.html">Events</a></li>
+                      <li><a href="testimonial.html">Testimonials</a></li>
+                      <li><a href="faq.html">FAQ’s</a></li>
+                      <li><a href="error.html">404 Page</a></li>
+                  </ul>
+              </li>
                   
                  
                   <NavLink to='/products'>Products
                     <ul className="dropdown">
-                      <NavLink to='/cooler' >Cooler</NavLink>
-                      <NavLink to='/freezer'>Freezer</NavLink>
+                      <NavLink to='/products/cooler' >Cooler</NavLink>
+                      <NavLink to='/products/freezer'>Freezer</NavLink>
                       
                     </ul>
                   </NavLink>
