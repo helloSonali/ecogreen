@@ -1,34 +1,31 @@
 
+import React from 'react';
 import './App.css';
-import About from './components/About';
-import Blog from './components/Blog';
-import BorderBottom from './components/BorderBottom';
-import CallOut from './components/CallOut';
-import ChooseUs from './components/ChooseUs';
-import Events from './components/Events';
-import Footer from './components/Footer';
-import Fundraising from './components/Fundraising';
-import Gallery from './components/Gallery';
-import Header from './components/Header';
-import Service from './components/Service';
+import Home from './components/Home';
 
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AboutSection from './components/About/AboutSection';
+import Blog from './components/Blog/BlogSection';
+import ProductSection from './components/Products/ProductSection';
+import ContactSection from './components/ContactUs/ContactSection';
 function App() {
   return (
-    <div>
-    <Header/>
-    <Service/>
-    <About/>
-    <ChooseUs/>
-    <Gallery/>
-    <Fundraising/>
-    <Events/>
-    <Blog/>
-    <BorderBottom/>
-    <CallOut/>
-    <Footer/>
-    
-    </div>
+    <React.Fragment>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='about' element={<AboutSection />} />
+          <Route path='blog' element={<Blog />} />
+          <Route path='products' element={<ProductSection />} />
+          <Route path='contact' element={<ContactSection />} />
+        </Routes>
+
+      </Router>
+    </React.Fragment>
   );
 }
 
 export default App;
+
+

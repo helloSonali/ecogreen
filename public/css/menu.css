@@ -106,11 +106,11 @@ License: http://codecanyon.net/licenses
 	display: inline-block;
 	float: left;
 }
-.menuzord-menu > li > a{
+.menuzord-menu >  a{
 	padding: 26px 16px;
 	display: inline-block;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 600;
 	color: #888;
 	outline: 0;
