@@ -3,7 +3,7 @@ import React from 'react'
 function BorderBottom() {
   return (
     <React.Fragment>
-    <section className="clients-section sec-padd">
+    {/* <section className="clients-section sec-padd">
     <div className="container">
       <div className="section-title center">
         <h2>our partners</h2>
@@ -26,7 +26,7 @@ function BorderBottom() {
         </div>
       </div>
     </div>  
-  </section>
+  </section> */}
     </React.Fragment>
   )
 }

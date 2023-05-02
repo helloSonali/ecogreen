@@ -4,16 +4,15 @@ import { Carousel, CarouselItem, Col, Container, Row } from 'react-bootstrap';
 function FundraisingCarasoul() {
   return (
     <React.Fragment>
-    <div>
+    {/* <div>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <div id="myCarousel" className="carousel slide container" data-bs-ride="carousel">
-      <div className="carousel-inner w-100">
-        <div className="carousel-item active">
+      <div className="row">
+        
           <div className="col-md-3">
             <div className="card card-body">
               <img className="img-fluid" src="https://via.placeholder.com/640x360?text=1" />
             </div>
-          </div>
         </div>
         <div className="carousel-item">
           <div className="col-md-3">
@@ -74,7 +73,7 @@ function FundraisingCarasoul() {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
+  </div> */}
     </React.Fragment>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 function Fundraising() {
   return (
     <React.Fragment>
-    <section className="urgent-cause2 sec-padd">
+    {/* <section className="urgent-cause2 sec-padd">
         <div className="container">
           <div className="section-title">
             <h2>Fundraising Campaigns</h2>
@@ -75,7 +75,7 @@ function Fundraising() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </React.Fragment>
   )
 }

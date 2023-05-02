@@ -26,9 +26,8 @@ function Navbar() {
                 <li><a href="#"><i className="fa fa-facebook" /></a></li>
                 <li><a href="#"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a href="#"><i className="fa fa-feed" /></a></li>
               </ul>
-              <button className="thm-btn donate-box-btn">donate now</button>
+              <button className="thm-btn donate-box-btn">Request a Quote</button>
             </div>
           </div>
         </div>

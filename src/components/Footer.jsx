@@ -14,7 +14,7 @@ function Footer() {
               {/*Footer Column*/}
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="footer-widget about-column">
-                  <figure className="footer-logo"><a href="index-2.html"><img src="images/logo/logo2.png" alt="" /></a></figure>
+                  <figure className="footer-logo"><a href="index-2.html"><img src="images/logo/logo.png" alt="" width="160" /></a></figure>
                   <div className="text"><p>When you give to us you know your donation is making a diffe. </p> </div>
                   <ul className="contact-info">
                     <li><span className="icon-signs" />22/121 Apple Street, New York, <br />NY 10012, USA</li>
@@ -81,10 +81,10 @@ function Footer() {
                   <ul className="social-icon">
                     <li><a href="#"><i className="fa fa-facebook" /></a></li>
                     <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fa fa-google-plus" /></a></li>
+                    {/* <li><a href="#"><i className="fa fa-google-plus" /></a></li> */}
                     <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                    <li><a href="#"><i className="fa fa-feed" /></a></li>
-                    <li><a href="#"><i className="fa fa-skype" /></a></li>
+                    {/* <li><a href="#"><i className="fa fa-feed" /></a></li>
+                    <li><a href="#"><i className="fa fa-skype" /></a></li> */}
                   </ul>
                 </div>
               </div>
@@ -98,7 +98,7 @@ function Footer() {
   <section className="footer-bottom">
     <div className="container">
       <div className="pull-left copy-text">
-        <p><a href="#">Copyrights © 2017</a> All Rights Reserved. Powered by <a href="#">Eco green.</a></p>
+        <p><a href="#">Copyrights © 2013</a> All Rights Reserved.</p>
       </div>{/* /.pull-right */}
       <div className="pull-right get-text">
         <a href="#">Join Us Now!</a>

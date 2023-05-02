@@ -9,24 +9,24 @@ function HomeSlider() {
             <Carousel>
               <Carousel.Item>
                 <img src='images/slider/1.jpg' alt='slider1' />
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                   <h1>First Image</h1>
                   <p>Description of first image</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img src='images/slider/2.jpg' alt='slider1' />
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                   <h1>Second Image</h1>
                   <p>Description of second image</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img src='images/slider/3.jpg' alt='slider1' />
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                   <h1>Third Image</h1>
                   <p>Description of third image</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
 
 
