@@ -51,7 +51,12 @@
 	.menuzord-menu > li > a {
 	    padding: 30px 7px;
 	}
-
+	.menuzord-menu > li > a{
+		padding: 30px 7px;
+		text-decoration: none;
+		font-size: 14px;
+	}
+	
 
 	.menuzord-menu > li > .megamenu-style2 {
 		display: none;

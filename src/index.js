@@ -1,27 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+import reportWebVitals from './reportWebVitals';
 import App from './App';
-// import RequestPage from './RequestPage';
-// import SingleProduct from './SingleProduct';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import RForm from './components/RForm';
-// import Home from './components/Home';
 
 
 
-
-
+// import Cooler from './components/Products/Cooler';
+// import ProductRequestForm from './components/Products/ProductRequestForm';
+// import SingleProduct from './components/Products/SingleProduct';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-  <App/>
-
-</React.StrictMode>
+  <App />
+  </React.StrictMode>
 );
 
-// <SingleProduct/>
-//  <RequestPage/>
-// <RForm/>
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

@@ -1,38 +1,27 @@
 
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
-
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutSection from './components/About/AboutSection';
-import Blog from './components/Blog/BlogSection';
-import ProductSection from './components/Products/ProductSection';
-import ContactSection from './components/ContactUs/ContactSection';
-
-import Navbar from './components/Navbar';
-import Navbar2 from './components/Navbar2';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes,Route, BrowserRouter } from 'react-router-dom';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Blog from './components/Blog/Blog';
+import Products from './components/Products/Products';
+import Contact from './components/contact/Contact';
 function App() {
   return (
-    <React.Fragment>
-
-      <Router>
-      <Navbar/>
-      <Navbar2/>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='about' element={<AboutSection />} />
-          <Route path='blog' element={<Blog />} />
-          <Route path='products' element={<ProductSection />} />
-          <Route path='contact' element={<ContactSection />} />
-        </Routes>
-      <Footer/>
-      </Router>
-    </React.Fragment>
+  <React.Fragment>
+  <Router>
+  <Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/blog' element={<Blog/>}/>
+  <Route path='/products' element={<Products/>}/>
+  <Route path='/contact' element={<Contact/>}/>
+ </Routes>
+  
+  </Router>
+  </React.Fragment>
   );
 }
 
 export default App;
-
-
