@@ -3,7 +3,7 @@ import React from 'react'
 function BlogBanner() {
   return (
     <React.Fragment>
-    <div className="inner-banner has-base-color-overlay text-center" style={{background: 'url(images/background/4.jpg)'}}>
+    <div className="inner-banner has-base-color-overlay text-center" style={{background: 'url(images/background/back1.jpg)'}}>
     <div className="container">
       <div className="box">
         <h1>Blog</h1>

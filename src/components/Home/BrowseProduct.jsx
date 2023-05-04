@@ -12,7 +12,7 @@ const BrowseProduct = () => {
 <React.Fragment>
 <div className='container-fluid'>
       
-      <Row className="product-row">
+      <Row className="product-row mb-5">
       <h2 className="text-center  heading">Browse Products</h2>
         <Col>
          <Link> <Card className="product-card1">

@@ -27,7 +27,7 @@ function Navbar() {
                 <li><Link><i className="fa fa-linkedin" /></Link></li>
                 <li><Link><i className="fa fa-twitter" /></Link></li>
               </ul>
-              <button className="thm-btn donate-box-btn">Request a Quote</button>
+              <button className="thm-btn donate-box-btn">Enquire</button>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ function Navbar() {
               <div className="right-area">
                 <div className="nav_side_content">
                   <div className="search_option">
-                    <button className="search tran3s dropdown-toggle color1_bg my-auto" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-search" aria-hidden="true" /></button>
+                    <button className="search tran3s dropdown-toggle color1_bg mx-auto my-auto" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-search" aria-hidden="true" /></button>
                     <form action="#" className="dropdown-menu" aria-labelledby="searchDropdown">
                       <input type="text" placeholder="Search..." />
                       <button><i className="fa fa-search" aria-hidden="true" /></button>

@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
+import Testimonial from './components/Testimonial/Testimonial';
+
+
 import App from './App';
+// import CoolerProducts from './components/Products/CoolerProducts';
+// import Products from './components/Products/Products';
 
-
-
-// import Cooler from './components/Products/Cooler';
-// import ProductRequestForm from './components/Products/ProductRequestForm';
-// import SingleProduct from './components/Products/SingleProduct';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,3 +22,7 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+// 
+// <CoolerProducts/>
+// <Products/>
+// <Testimonial/>

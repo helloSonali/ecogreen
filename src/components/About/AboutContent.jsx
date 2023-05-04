@@ -12,10 +12,10 @@ function AboutContent() {
       <div className="row">
         <div className="col-md-6 col-sm-12">
           <figure className="img-box">
-            <img src="images/resource/8.jpg" alt="" />
+            <img src="images/features/product2.jpg" alt="" />
           </figure>
         </div>
-        <div className="col-md-6 col-sm-6 col-xs-12">
+        <div className="col-md-6 col-sm-6 col-xs-12 ml-1">
           <div className="content">
             <h2>Together we can make a difference</h2>
             <div className="text">
