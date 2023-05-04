@@ -8,13 +8,9 @@ import Footer from '../Footer/Footer'
 function Products() {
   return (
 <React.Fragment>
-
-<ProductBanner/>
-<ProductList/>
-<CallOut/>
-<Footer/>
-
-
+   <ProductBanner/>
+   <ProductList/>
+   <CallOut/>
 </React.Fragment>
   )
 }

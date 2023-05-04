@@ -153,9 +153,12 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
 
 .float_left {
     float: left;
+    line-height: 30px;
 }
 .float_right {
     float: right;
+    line-height: 20px;
+    padding-top: 6px;
 }
 
 .border-bottom {
@@ -982,7 +985,7 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
   line-height: auto;
   z-index: 999;
   background: #f7f7f7;
-  padding: 6px 0;
+  padding: 0px 0;
 
 
 }
@@ -990,18 +993,18 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
 
 
 .top-bar .top-bar-info li {
-  color: #999;
+  color: #605b5b;
   margin-right: 20px;
   display: inline-block;
   position: relative;
   top: 0px;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 4px;
 }
 .top-bar .top-bar-info li i {
     color: #4CA653;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     top: 3px;
 }
@@ -1034,7 +1037,7 @@ input,textarea {font-family: 'Open Sans', sans-serif;display: block; font-size: 
 
 .top-bar .social li a {
   margin: 0 8px;
-  color: #999;
+  color: #605b5b;
   font-size: 14px;
 }
 .top-bar .social li a:hover {

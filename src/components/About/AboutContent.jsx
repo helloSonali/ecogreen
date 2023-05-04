@@ -6,7 +6,7 @@ function AboutContent() {
     <section className="about sec-padd2">
     <div className="container">
       <div className="section-title center">
-        <h2>Words About Us</h2>
+        <h2>About Us</h2>
         <p>Every voice counts! Choose campaign, donate and help us change the world</p>
       </div>
       <div className="row">

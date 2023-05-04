@@ -7,10 +7,8 @@ import Footer from '../Footer/Footer';
 function About() {
   return (
     <React.Fragment>
-    <Navbar/>
     <AboutBanner/>
     <AboutContent/>
-    <Footer/>
     </React.Fragment>
   );
 }

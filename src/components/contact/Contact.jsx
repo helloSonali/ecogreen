@@ -10,16 +10,11 @@ import Footer from '../Footer/Footer'
 function Contact() {
   return (
    <React.Fragment>
-   <Navbar/>
    <ContactBanner/>
    <GetTouchWithUs/>
    <FormSection/>
    <MapSection/>
-   <CallOut/>
-   <Footer/>
-
-
-  
+   <CallOut/> 
    </React.Fragment>
   )
 }

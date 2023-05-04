@@ -12,9 +12,9 @@ const BrowseProduct = () => {
 <React.Fragment>
 <div className='container-fluid'>
       
-      <Row className="product-row mb-5">
+      <Row className="product-row mb-5 row">
       <h2 className="text-center  heading">Browse Products</h2>
-        <Col>
+        <Col className='col-md-6'>
          <Link> <Card className="product-card1">
          <Card.Img variant="top" src={product1} />
          <Card.Body className='cbody'>
@@ -23,7 +23,7 @@ const BrowseProduct = () => {
          </Card.Body>
        </Card></Link>
         </Col>
-        <Col>
+        <Col className='col-md-6'>
           <Link>
           <Card className="product-card2">
             <Card.Img variant="top" src={product2} />

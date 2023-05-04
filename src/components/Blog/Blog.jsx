@@ -9,12 +9,10 @@ import Gallery from '../Home/Gallery'
 function Blog() {
   return (
     <React.Fragment>
-    <Navbar/>
     <BlogBanner/>
     <Blogs/>
     <Gallery/>
     <CallOut/>
-    <Footer/>
     </React.Fragment>
   )
 }

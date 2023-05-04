@@ -9,20 +9,18 @@ import CallOut from '../Footer/CallOut'
 import Facts from './Facts'
 import TopSeller from './TopSeller'
 import BrowseProduct from './BrowseProduct'
+import Banner from '../Header/Banner'
 function Home() {
   return (
     <React.Fragment>
-    <Header/>
+      <Banner/>
     <ChooseUs/>
     <AboutContent/>
     <TopSeller/>
-    <BrowseProduct/>
-    
-   
+    <BrowseProduct/>  
     <Gallery/>
     <Blogs/>
     <CallOut/>
-    <Footer/>
     </React.Fragment>
   )
 }

@@ -6,11 +6,11 @@ function Navbar() {
     <div className="top-bar">
         <div className="container">
           <div className="clearfix">
-            <ul className="float_left top-bar-info">
+            <ul className="float_left top-bar-info mb-0">
               <li><i className="icon-phone-call" />Phone: (123) 0200 12345</li>
               <li><i className="icon-e-mail-envelope" />Supportus@Ecogreen.com</li>
             </ul>
-            <div className="right-column float_right">
+            <div className="right-column float_right mb-0">
               <div id="polyglotLanguageSwitcher" className>
                 <form action="#">
                   <select id="polyglot-language-options">
@@ -27,7 +27,7 @@ function Navbar() {
                 <li><Link><i className="fa fa-linkedin" /></Link></li>
                 <li><Link><i className="fa fa-twitter" /></Link></li>
               </ul>
-              <button className="thm-btn donate-box-btn">Enquire</button>
+              {/* <button className="thm-btn donate-box-btn">Enquire</button> */}
             </div>
           </div>
         </div>
@@ -45,16 +45,16 @@ function Navbar() {
               <nav className="menuzord" id="main_menu">
                 <ul className="menuzord-menu">
                <li>  <Link to='/'>Home</Link></li> 
-               <li>  <Link to='/about'>About</Link></li>                 
-               <li>  <Link to='/blog'>Blog</Link></li> 
+               <li>  <Link to='/about'>About</Link></li>                  
                   <li><Link to='/products'>Products
                   <ul className="dropdown">
                     <Link to='/products/cooler' >Cooler</Link>
                     <Link to='/products/freezer'>Freezer</Link>                      
                   </ul>
                 </Link></li>
+                <li>  <Link to='/blog'>Blog</Link></li>
                 <li> <Link to ='/contact'>contact us</Link></li>
-                 
+                <li> <Link to ='/' className='btn btn-info text-white btn-sm'>Get a quote</Link></li>
                 </ul>
               </nav> 
             </div>
