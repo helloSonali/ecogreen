@@ -3,14 +3,14 @@ import React from 'react'
 function Blogs() {
   return (
     <React.Fragment>
-    <section className="blog-section sec-padd3">
+    <section className=" sec-padd-bottom  padt-60 mt-60">
         <div className="container">
           <div className="section-title center">
             <h2>latest news</h2>
           </div>
           <div className="row">
-            <article className="col-md-3 col-sm-6 col-xs-12">
-              <div className="default-blog-news wow fadeInUp animated animated" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
+            <article className="col-md-3 col-sm-6 col-xs-12 ">
+              <div className="default-blog-news wow fadeInUp animated animated blogs-style " style={{visibility: 'visible', animationName: 'fadeInUp'}}>
                 <figure className="img-holder">
                   <a href="blog-details.html"><img src="images/features/c1.jpg" alt="News" /></a>
                   <figcaption className="overlay">
@@ -31,6 +31,7 @@ function Blogs() {
                 </div>
               </div>
             </article>
+           
             <article className="col-md-3 col-sm-6 col-xs-12">
               <div className="default-blog-news wow fadeInUp animated animated" style={{visibility: 'visible', animationName: 'fadeInUp'}}>
                 <figure className="img-holder">

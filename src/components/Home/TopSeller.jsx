@@ -6,7 +6,7 @@ function TopSeller() {
     <section className=" blog-section sec-padd-bottom">
         <div className="container">
           <div className="section-title center">
-            <h2>Top Seller</h2>
+            <h2 className='heading2'>Top Seller</h2>
           </div>
           <div className="row">
             <article className="col-md-3 col-sm-6 col-xs-12  topseller">

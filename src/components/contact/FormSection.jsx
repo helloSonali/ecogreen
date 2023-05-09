@@ -6,7 +6,7 @@ function FormSection() {
     <section className="contact-form-area">
         <div className="container">
           <div className="row">
-          <h1 className='text-center mb-4 section-title'>Contact us</h1>
+          <h2 className='text-center mb-4 section-title'>Contact us</h2>
             <div className="col-md-8 sec-padd2">
               <div className="default-form-area">
                 <form id="contact-form" name="contact_form" className="default-form" action="http://st.ourhtmldemo.com/new/Ecogreen_Template/inc/sendmail.php" method="post">

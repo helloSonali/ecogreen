@@ -78,7 +78,8 @@ function Gallery() {
             </div>
           </div>
         </article>
-        <article className="col-md-3 col-sm-6 col-xs-12 filter-item Wild-Animals Pollution Water">
+       
+        <article className="col-md-3 col-sm-6 col-xs-12 filter-item Wild-Animals Pollution Ecology Recycling">
           <div className="item">
             <div className="img-box">
               <img src="images/features/c1.jpg" alt="" />
@@ -97,6 +98,8 @@ function Gallery() {
             </div>
           </div>
         </article>
+        
+       
       </div>
     </div>
   </section>

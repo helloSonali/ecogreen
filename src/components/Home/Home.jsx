@@ -13,18 +13,22 @@ import Banner from '../Header/Banner'
 import FormSection from '../contact/FormSection'
 import TopSlider from '../slider/TopSlider'
 import ContactFrom from './ContactFrom'
+import FeatureSlider from '../slider/FeatureSlider'
+import Testimonial from '../Testimonial/Testimonial'
+import SelectSection from '../SelectSection'
 function Home() {
   return (
     <React.Fragment>
-      <Banner/>
-    <ChooseUs/>
-    <AboutContent/>
-    <TopSeller/>
-    <BrowseProduct/>  
-    <TopSlider/>
-    <Blogs/>
-<ContactFrom/>
-    <CallOut/>
+      <Banner />
+      <ChooseUs />
+      <AboutContent />
+      <SelectSection/>
+      <FeatureSlider />
+      <Blogs />
+      <ContactFrom />
+      <Testimonial />
+      
+      <CallOut />
     </React.Fragment>
   )
 }

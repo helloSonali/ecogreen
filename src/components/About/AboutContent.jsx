@@ -3,10 +3,10 @@ import React from 'react'
 function AboutContent() {
   return (
     <React.Fragment>
-    <section className="about sec-padd2">
+    <section className="about mb-50 sec-padd3 ">
     <div className="container">
       <div className="section-title center">
-        <h2>About Us</h2>
+        <h2 className='heading2'>About Us</h2>
         <p>Every voice counts! Choose campaign, donate and help us change the world</p>
       </div>
       <div className="row">
@@ -17,7 +17,7 @@ function AboutContent() {
         </div>
         <div className="col-md-6 col-sm-6 col-xs-12 ml-1">
           <div className="content">
-            <h2>Together we can make a difference</h2>
+            <h4>Together we can make a difference</h4>
             <div className="text">
               <p>When you give to Our Ecogreen, you know your donation is making a difference. Whether you are supporting one of our Signature Programs or our carefully curated list of Gifts That Give More, our professional staff works hard every day <br />to ensure every dollar has impact for the cause of your choice. </p>
             </div>

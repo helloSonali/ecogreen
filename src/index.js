@@ -3,20 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-// import Testimonial from './components/Testimonial/Testimonial';
 
-// import ProductSlider from './components/Products/ProductSlider'
 import App from './App';
-// import TopSlider from './components/slider/TopSlider';
-// import Testimonial from './components/Testimonial/Testimonial';
-// import CoolerProducts from './components/Products/CoolerProducts';
-// import Products from './components/Products/Products';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <App />
+<App/>
   </React.StrictMode>
 );
 
@@ -28,6 +24,8 @@ reportWebVitals();
 // <CoolerProducts/>
 // <Products/>
 // <Testimonial/>
-// 
+//   <App />
 // <Testimonial/>
 // <TopSlider/>
+// <Topbar/>
+//   <App />

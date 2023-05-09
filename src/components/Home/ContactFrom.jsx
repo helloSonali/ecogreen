@@ -1,13 +1,15 @@
 import React from 'react'
-
+import './Contactus.css'
 function ContactFrom() {
   return (
     <React.Fragment>
-    <section className="contact-form-area">
+    <section className="contacts sec-padd-bottom  sec-padd-top ">
     <div className="container">
-      <div className="row">
-      <h1 className='text-center mb-4 section-title'>Contact us</h1>
-        <div className="offset-2 col-md-8 sec-padd2">
+      <div className="section-title center">
+        <h2 className='heading2'>Contact us</h2>
+     
+      </div>
+        <div className="offset-2 col-md-8 ">
           <div className="default-form-area">
             <form id="contact-form" name="contact_form" className="default-form" action="http://st.ourhtmldemo.com/new/Ecogreen_Template/inc/sendmail.php" method="post">
               <div className="row clearfix">
@@ -48,7 +50,9 @@ function ContactFrom() {
         </div>
         
       </div>
-    </div></section>
+  
+
+    </section>
 
     
     </React.Fragment>

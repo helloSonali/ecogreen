@@ -4,9 +4,9 @@ function Banner() {
   return (
     <React.Fragment>
       
-        <Row>
+        <Row >
           <Col>
-            <Carousel>
+            <Carousel >
               <CarouselItem>
                 <img className='slider_img' src='images/slider/ban1.jpg' alt='slider1' />
                 {/* <Carousel.Caption>
@@ -34,7 +34,7 @@ function Banner() {
           </Col>
 
         </Row>
-    
+   
     </React.Fragment>
   )
 }

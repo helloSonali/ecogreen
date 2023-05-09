@@ -3,8 +3,8 @@ import React from 'react'
 function ChooseUs() {
   return (
     <React.Fragment>
-    <section className="why-chooseus sec-padd3">
-        <div className="container">
+    <section className="why-chooseus sec-padd-top mb-30">
+        <div className='container'>
           <div className="row">
             <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="item">

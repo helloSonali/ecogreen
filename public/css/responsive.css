@@ -178,6 +178,17 @@
 	.our-mission {
 		margin-top: 0px;
 	}
+ .top-bar{
+	height: 35px;
+ }
+   .top-bar-info{
+	display : none;
+   }
+   .social li a i{
+	font-size: 18px;
+	color: #4CA653;
+	text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
