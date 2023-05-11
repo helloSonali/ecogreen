@@ -1,0 +1,80 @@
+@import url("../../../../use.typekit.net/rse3whm.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+
+
+/* Icon container */
+.jwplayer.jw-skin-tm_skin .jw-display-controls .jw-display-icon-container {
+  border-radius: 50%;
+  background-color: #569C56;
+}
+/* Icon container hover */
+.jwplayer.jw-skin-tm_skin .jw-display-controls .jw-display-icon-container:hover {
+	background-color: #9ABB9A;
+}
+
+
+
+/* Idle overlay */
+.jwplayer.jw-skin-tm_skin.jw-state-idle .jw-controls {
+  background: transparent;
+}
+
+.jwplayer.jw-skin-tm_skin.jw-state-idle .jw-title {
+		background: linear-gradient(to bottom, rgba(0,0,0,.7) 0%, rgba(0,0,0,.0) 100%);
+		height:45px;
+	}
+
+
+@media only screen and (min-width: 481px) {
+	.jwplayer.jw-skin-tm_skin.jw-state-idle .jw-title {
+		background: linear-gradient(to bottom, rgba(0,0,0,.7) 0%, rgba(0,0,0,.0) 100%);
+		height:150px;
+	}
+}
+
+
+
+/* Title */
+.jwplayer.jw-skin-tm_skin .jw-title-primary {
+   /* background: rgba(0, 0, 0, .3); */
+  font-family: "futura-pt", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight:500;
+}
+.jwplayer.jw-skin-tm_skin .jw-title-secondary {
+   /* background: rgba(0, 0, 0, .3); */
+   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight:400;
+   font-size:17px;
+}
+
+/* Progress background */
+.jwplayer.jw-skin-tm_skin .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+  height:10px;
+}
+
+/* Progress buffered */
+.jwplayer.jw-skin-tm_skin .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+  height:10px;
+}
+
+/* Progress position */
+.jwplayer.jw-skin-tm_skin .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+  background-color: #CF8311;
+  height:10px;
+}
+
+/* Shift the play button up on small displays 0 to 319 px */
+.jwplayer.jw-skin-tm_skin.jw-state-playing.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container, 
+.jwplayer.jw-skin-tm_skin.jw-state-paused.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container
+{
+  transform: translate3d(0, -30px, 0);
+}
+/* Shift the play button up on small displays - 320 to 419 px */
+.jwplayer.jw-skin-tm_skin.jw-state-playing.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container, 
+.jwplayer.jw-skin-tm_skin.jw-state-paused.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container
+{
+  transform: translate3d(0, -30px, 0);
+}
+
+
+
