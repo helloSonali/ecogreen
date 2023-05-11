@@ -16,7 +16,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2019/11/14/forum_Thumbnail-30511dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -37,7 +37,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/09/16/forum_StateIndustry_Thumbnail-51959dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -58,7 +58,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/09/07/forum_StateoftheIndustry_Thumbnail-37491dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -81,7 +81,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/08/30/forum_Balance_Thumbnail-45192dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -102,7 +102,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/08/19/forum_Cadillac_Thumbnail-54821dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -123,7 +123,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/08/09/forum_StructuringPilates_Thumbnail-33293dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -146,7 +146,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/06/25/forum_ClientsinStudio_Thumbnail1-14648dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -167,7 +167,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/06/17/forum_CertifiedTeacher_Thumbnail-37196dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -188,7 +188,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/06/15/forum_full_WundaChair_Thumbnail62495-42070dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -211,7 +211,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2018/06/05/forum_HAPPYTEACHERS-80424dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -232,7 +232,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/04/29/forum_ThumbnailBlogCarmenTeaching-17113dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -253,7 +253,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/03/15/forum_Thumb1-33323dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -276,7 +276,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/02/10/forum_Circlethumb-91371dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -297,7 +297,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2021/02/05/forum_newsletter-10079dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -318,7 +318,7 @@ function Blog() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2020/10/27/forum_thumbnailreformer-75151dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 

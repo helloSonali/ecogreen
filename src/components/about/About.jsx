@@ -7,7 +7,7 @@ function About() {
     <section className="container">
       <div className="row">
         <div className="col-xs-12 col-sm-6 col-lg-7 ">
-          <img src="../../images.pilatesanytime.com/graphics/responsive/marketing/about/hero-b-20211220e894.jpg?width=653" className="img-responsive" />
+          <img src="images/8.jpg" className="img-responsive" />
         </div> 
         <div className="col-xs-12 col-sm-6 col-lg-5">
           <div className="tm-xs-margin-top-30">
@@ -44,7 +44,7 @@ function About() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2022/04/20/forum_ShouldersInjury_Thumbnail-24242dad0.jpg?width=425" />
+                  <img className="img-responsive" src='images/8.jpg' />
                 </div>
               </div>
             </div> 
@@ -65,7 +65,7 @@ function About() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2022/04/21/forum_Mobility_Thumbnail1-26096dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
@@ -86,7 +86,7 @@ function About() {
             <div className="row">
               <div className="col-xs-12">
                 <div className="tm-article-image">
-                  <img className="img-responsive" src="../../images.pilatesanytime.com/2022/02/22/forum_Prenatal_Thumbnail1-46441dad0.jpg?width=425" />
+                  <img className="img-responsive" src="images/8.jpg" />
                 </div>
               </div>
             </div> 
