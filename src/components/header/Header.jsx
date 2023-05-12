@@ -2,13 +2,14 @@ import React from 'react'
 import Topbar from './Topbar'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
+import Nav from './Nav'
 
 function Header() {
   return (
     <React.Fragment>
     <Topbar/>
     <hr />
-    <Navbar/>
+   <Nav/>
     <HeroSection/>
     
     </React.Fragment>
@@ -16,3 +17,4 @@ function Header() {
 }
 
 export default Header
+// <Navbar/>
